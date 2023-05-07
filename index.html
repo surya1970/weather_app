@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>weather App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+         <header>
+            <div class="h_left">
+                <h1>Weather App</h1>
+            </div>
+            <div class="h_right">
+                <input class="search"  type="search" placeholder="Search">
+                <button class="search_button">Search</button>
+            </div>
+         </header>
+
+         <main>
+
+            <div class="name_of_place">
+                <h1 class="name">India</h1>
+            </div>
+
+            <div class="weather_info">
+                <div class="now_one">
+                    <img   src="pic/rain.png" class="w_img" >
+                    <h3 class="climate">....</h3>            
+                </div>
+
+                <div class="now_two">
+                    <h1 class="tem">--°C</h1>
+                </div>
+
+                <div class="now_three">
+                    <div class="humidity">
+                        <img src="pic/humidity.png">
+                        <div>
+                            <p>Humidity</p>
+                            <p class="h">--%</p>
+                        </div>
+                    </div>
+                    <div class="wind_speed">
+                        <img src="pic/wind.png">
+                        <div>
+                            <p>Wind Speed</p>
+                            <p class="ws">--km/hr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="n">Next 2 Days Forecast:</h2>
+
+            <div class="next_weather_info">
+
+                <div class="tmrw">
+                    <h2>Tomorrow:</h2>
+                    <div class="t"> 
+                        <div class="tmrw_left">
+                            <p class="deg_tmrw"></p>
+                        </div>
+
+                        <div class="tmrw_right">
+                            <img src=" " class="tmrw_img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tmrw">
+                    <h2>Day After Tomorrow:</h2>
+                    <div class="t"> 
+                        <div class="tmrw_left">
+                            <p class="deg_next_tmrw"></p>
+                        </div>
+
+                        <div class="tmrw_right">
+                            <img src=" " class="next_tmrw_img">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+         </main>
+         <footer >
+            <div class="foot"> 
+                <h3>Created by: </h3>
+                <a href="https://surya1970.github.io/my_protfolio.com/" target="blank">Surya</a>
+            </div>
+         </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
